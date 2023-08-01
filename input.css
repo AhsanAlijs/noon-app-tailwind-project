@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.three-column-head{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 7.5px 0px;
+    color: rgb(64, 69, 83);
+    text-align: left;
+    font-weight: bold;
+    font-size: 22px;
+}
